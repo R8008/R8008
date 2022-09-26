@@ -2,15 +2,15 @@
 <html lang="ja">
     <head>
         <meta charset="UTF-8">
-        <title>m5-1</title>
+        <title><データベース掲示板</title>
     </head>
     <body>
         
         
 <?php
-    $dsn='*******';
-    $user='********';
-    $password="*******";
+    $dsn='データベース名';
+    $user='ユーザー名';
+    $password="パスワード";
     $pdo=new PDO($dsn, $user, $password, array(PDO::ATTR_ERRMODE=>PDO::ERRMODE_WARNING));
        
     $sql="CREATE TABLE IF NOT EXISTS m51"."(
