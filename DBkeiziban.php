@@ -2,7 +2,7 @@
 <html lang="ja">
     <head>
         <meta charset="UTF-8">
-        <title><データベース掲示板</title>
+        <title>データベース掲示板</title>
     </head>
     <body>
         
